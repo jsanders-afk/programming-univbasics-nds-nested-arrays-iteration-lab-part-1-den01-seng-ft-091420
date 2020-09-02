@@ -14,7 +14,11 @@ def find_even_values(src)
       tes = src[row][element]
       tes % 2 
         if tes == 0
-          tes
+            p "ping"
+            element += 1
+        else
+          p "nah"
+        end
       element += 1
       
     end
