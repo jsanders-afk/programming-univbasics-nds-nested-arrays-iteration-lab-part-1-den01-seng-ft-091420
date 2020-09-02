@@ -7,7 +7,6 @@ src = [
 
 
 def find_even_values(src)
-  ev_i = []
  row = 0
   while row < src.length do
   element = 0
