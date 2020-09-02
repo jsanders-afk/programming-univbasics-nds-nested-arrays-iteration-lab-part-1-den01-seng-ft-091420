@@ -15,7 +15,6 @@ def find_even_values(src)
       tes % 2 
         if tes == 0
             p "ping"
-            element += 1
         else
           p "nah"
         end
