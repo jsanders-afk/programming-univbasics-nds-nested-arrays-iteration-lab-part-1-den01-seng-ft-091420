@@ -11,7 +11,7 @@ def find_even_values(src)
   while row < src.length do
   element = 0
     while element < src[row].length do
-      tes = src[row][element]
+      tes = src[row][element].to_f
       tes % 2 
         if tes == 0
             p "ping"
