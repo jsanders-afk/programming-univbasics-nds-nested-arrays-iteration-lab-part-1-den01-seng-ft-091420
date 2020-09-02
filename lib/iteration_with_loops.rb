@@ -18,10 +18,3 @@ def find_even_values(src)
   end
 end
 binding.pry
-
-tes = src[row][element]  % 2
-        if tes == 0
-          ev.push(src[count][ic]) 
-          ic += 1
-        else
-        ic += 1
