@@ -16,8 +16,10 @@ def find_even_values(src)
     while ic < src[count].length do
       tes = src[count][ic]  % 2
         if tes == 0
-          src[count][ic] <<
-    
+          src[count][ic] << ev
+          ic += 1
+        else
+        ic += 1
     end
     counts += 1
   end
