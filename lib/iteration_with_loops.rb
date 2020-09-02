@@ -14,7 +14,7 @@ def find_even_values(src)
     while element < src[row].length do
       tes = src[row][element].to_i % 2
         if tes == 0
-          ev_i.push(src[row][element])
+          src[row][element] << ev_i
         end
       element += 1
     end
