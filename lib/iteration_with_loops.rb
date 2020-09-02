@@ -17,7 +17,7 @@ def find_even_values(src)
     while ic < src[count].length do
       tes = src[count][ic]  % 2
         if tes == 0
-          src[count][ic] << ev
+          ev.push(src[count][ic]) 
           ic += 1
         else
         ic += 1
