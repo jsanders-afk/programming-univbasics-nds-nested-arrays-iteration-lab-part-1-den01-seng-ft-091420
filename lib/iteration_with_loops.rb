@@ -26,6 +26,5 @@ def find_even_values(src)
   end
   ev
 end
-binding.pry
 
 
