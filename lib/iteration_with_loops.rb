@@ -8,17 +8,18 @@ src = [
 
 def find_even_values(src)
  row = 0
- ev_i <<
+ ev_i = []
   while row < src.length do
   element = 0
     while element < src[row].length do
       tes = src[row][element].to_i % 2
         if tes == 0
-          p src[row][element] 
+          ev_i.push(src[row][element])
         end
       element += 1
     end
     row += 1
   end
+  ev_i
 end
 
