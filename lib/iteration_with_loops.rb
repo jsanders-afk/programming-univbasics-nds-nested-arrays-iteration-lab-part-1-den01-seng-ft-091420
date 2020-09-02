@@ -11,7 +11,7 @@ def find_even_values(src)
   while row < src.length do
   element = 0
     while element < src[row].length do
-      puts src[row][element]
+      p src[row][element]
       element += 1
     end
     row += 1
