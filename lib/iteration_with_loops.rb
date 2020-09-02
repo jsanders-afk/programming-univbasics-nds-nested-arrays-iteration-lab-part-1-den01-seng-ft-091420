@@ -1,3 +1,4 @@
+
 aoa = [
   [1,2,3],
   [4,5,6],
@@ -25,6 +26,6 @@ def find_even_values(src)
   end
   ev
 end
-
+binding.pry
 
 
