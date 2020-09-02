@@ -5,15 +5,16 @@ src = [
   [23, 41]
 ]
 
-ev_i = []
+
 def find_even_values(src)
+  ev_i = []
  row = 0
   while row < src.length do
   element = 0
     while element < src[row].length do
       tes = src[row][element].to_i % 2
         if tes == 0
-          src[row][element] << ev_i
+          p src[row][element] 
         end
       element += 1
     end
