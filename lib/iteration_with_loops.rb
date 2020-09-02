@@ -8,15 +8,14 @@ src = [
 
 def find_even_values(src)
  row = 0
-  while count < src.length do
-    element = 0
+  while row < src.length do
+  element = 0
     while element < src[row].length do
-    puts src[row][element]
-    element += 1
+      puts src[row][element]
+      element += 1
     end
-    counts += 1
+    row += 1
   end
-  ev
 end
 binding.pry
 
